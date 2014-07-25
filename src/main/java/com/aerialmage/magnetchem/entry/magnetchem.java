@@ -89,13 +89,13 @@ public class magnetchem {
 
         //proxy.registerTickHandlers();
         instance = this;
-        blockMultiColorWool = new BlockMulticolorWool(Material.cloth).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("multi_color_wool").setBlockName("AMP:multi_color_wool").setCreativeTab(CreativeTabsAMP.instance);
+        blockMultiColorWool = new BlockMulticolorWool(Material.cloth).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("multi_color_wool").setBlockName("AMP:multi_color_wool_side").setCreativeTab(CreativeTabsAMP.instance);
         blockRedCellV2 = new BlockRedCell().setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("red_cell_active").setBlockName("AMP:red_cell").setCreativeTab(CreativeTabsAMP.instance);
-        blockBloodyStone = new BlockBloodyStone(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("block_bloody_stone").setBlockName("AMP:bloody_stone").setCreativeTab(CreativeTabsAMP.instance);
-        blockMagneticConductor = new BlockMagneticConductor(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("block_magnetic_conductor").setBlockName("AMP:magnet_block").setCreativeTab(CreativeTabsAMP.instance);
-        blockMagneticInductionFurnace = new BlockMagnetInductionFurnace(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("block_magnetic_furnace_block").setBlockName("AMP:magnet_furnace_block").setCreativeTab(CreativeTabsAMP.instance);
-        blockWorldgenLiquifier = new BlockWorldgenLiquifier(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("block_worldgen_liquifier").setBlockName("AMP:worldgen_liquifier_block").setCreativeTab(CreativeTabsAMP.instance);
-        blockWorldgenRegenerator = new BlockWorldgenRegenerator(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("block_worldgen_regenerator").setBlockName("AMP:worldgen_regenerator_block").setCreativeTab(CreativeTabsAMP.instance);
+        blockBloodyStone = new BlockBloodyStone(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("block_bloody_stone_0").setBlockName("AMP:bloody_stone").setCreativeTab(CreativeTabsAMP.instance);
+        blockMagneticConductor = new BlockMagneticConductor(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("magnet_ends").setBlockName("AMP:magnet_block").setCreativeTab(CreativeTabsAMP.instance);
+        blockMagneticInductionFurnace = new BlockMagnetInductionFurnace(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("magnet_ends").setBlockName("AMP:magnet_furnace_block").setCreativeTab(CreativeTabsAMP.instance);
+        blockWorldgenLiquifier = new BlockWorldgenLiquifier(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("magnet_ends").setBlockName("AMP:worldgen_liquifier_block").setCreativeTab(CreativeTabsAMP.instance);
+        blockWorldgenRegenerator = new BlockWorldgenRegenerator(Material.rock).setHardness(1.5F).setStepSound(Block.soundTypeCloth).setBlockTextureName("magnet_ends").setBlockName("AMP:worldgen_regenerator_block").setCreativeTab(CreativeTabsAMP.instance);
         GameRegistry.registerBlock(blockMultiColorWool, "multiColorWool");
         GameRegistry.registerBlock(blockRedCellV2, "redCell");
         GameRegistry.registerBlock(blockBloodyStone, "bloodyStone");

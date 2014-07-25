@@ -18,12 +18,12 @@ public final class CreativeTabsAMP extends CreativeTabs {
 
 	@Override
     public ItemStack getIconItemStack() {
-		return new ItemStack(magnetchem.blockRedCellV2, 0, 2);
+		return new ItemStack(Item.getItemFromBlock(magnetchem.blockRedCellV2), 0, 2);
 	}
 
     @Override
     public Item getTabIconItem() {
-        return null;
+        return Item.getItemFromBlock(magnetchem.blockRedCellV2);
     }
 
     @Override
